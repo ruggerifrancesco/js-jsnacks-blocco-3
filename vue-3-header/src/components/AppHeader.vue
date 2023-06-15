@@ -1,3 +1,13 @@
+<script>
+    export default {
+        data() {
+            return {
+                navItemLinks: [],
+            }
+        },
+    }
+</script>
+
 <template>
     <header>
         <nav>
@@ -10,16 +20,6 @@
         </nav>
     </header>
 </template>
-
-<script>
-    export default {
-        data() {
-            return {
-                navItemLinks: [],
-            }
-        },
-    }
-</script>
 
 <style lang="scss">
     
