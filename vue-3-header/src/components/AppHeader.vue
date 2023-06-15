@@ -2,7 +2,28 @@
     export default {
         data() {
             return {
-                navItemLinks: [],
+                navItemLinks: [
+                    {
+                        link: '#',
+                        idItem: 1,
+                        itemName: 'Home',
+                    },
+                    {
+                        link: '#',
+                        idItem: 2,
+                        itemName: 'About Us',
+                    },
+                    {
+                        link: '#',
+                        idItem: 3,
+                        itemName: 'Products',
+                    },
+                    {
+                        link: '#',
+                        idItem: 4,
+                        itemName: 'Contact Us',
+                    },
+                ],
             }
         },
     }
