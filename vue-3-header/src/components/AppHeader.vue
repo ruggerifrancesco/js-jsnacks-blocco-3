@@ -45,6 +45,10 @@ import NavLink from './NavLink.vue';
     </header>
 </template>
 
-<style lang="scss">
-    
+<style lang="scss" scoped>
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+    }
 </style>
