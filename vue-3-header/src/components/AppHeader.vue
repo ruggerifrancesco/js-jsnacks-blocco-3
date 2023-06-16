@@ -1,5 +1,10 @@
 <script>
+import NavLink from './NavLink.vue';
+
     export default {
+        components: {
+            NavLink
+        },
         data() {
             return {
                 navItemLinks: [
