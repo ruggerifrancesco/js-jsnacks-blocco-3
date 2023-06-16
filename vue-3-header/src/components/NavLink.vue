@@ -1,16 +1,15 @@
 <template>
-    <div>
-        
-    </div>
+    <li>{{ itemName }}</li>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            
-        }
-    },
+  props: {
+    itemName: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 

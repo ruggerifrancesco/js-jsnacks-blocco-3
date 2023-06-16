@@ -38,9 +38,9 @@ import NavLink from './NavLink.vue';
     <header>
         <nav>
             <ul>
-                <li v-for="item in navItemLinks">
-                    {{ item.itemName }}
-                </li>
+                <NavLink v-for="item in navItemLinks"
+                :item-name="item.itemName"
+                :key="item.idItem" />
             </ul>
         </nav>
     </header>
